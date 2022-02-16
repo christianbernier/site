@@ -56,13 +56,14 @@ p {
     font-family: "Source Code Pro", monospace;
     font-weight: 300;
     font-size: 1.3rem;
+    margin-bottom: 4rem;
 }
 
-#about-info {
-    margin-top: 4rem;
+.about-info {
+    margin-top: 1.5rem;
 }
 
-#about-info > a {
+.about-info > a {
     color: var(--light);
 }
 
