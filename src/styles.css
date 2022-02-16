@@ -108,17 +108,17 @@ p {
     flex-flow: row wrap;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
     .project-tile {
-        width: calc(100% / 2 - 100px);
-        margin-right: 40px;
+        width: calc(100% / 2 - 100px) !important;
+        margin-right: 40px !important;
     }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1800px) {
     .project-tile {
-        width: calc(100% / 3 - 120px);
-        margin-right: 40px;
+        width: calc(100% / 3 - 120px) !important;
+        margin-right: 40px !important;
     }
 }
 
@@ -138,6 +138,8 @@ p {
 }
 
 .project-tile {
+    width: 100%;
+    margin-right: 0;
     box-shadow: 0 0 10px 1px var(--shadow);
     border-radius: 7px;
     padding: 30px;
