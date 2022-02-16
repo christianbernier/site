@@ -1,0 +1,141 @@
+/* GENERAL */
+
+* {
+    --dark: #212020;
+    --light: #fffcf8;
+    --shadow: #21202040;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 150%;
+}
+
+.content {
+    width: 80vw;
+    margin: 0 10vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .content {
+        width: 60vw !important;
+        margin: 0 20vw !important; 
+    }
+}
+
+
+/* INTRO (top part) */
+
+#intro-div {
+    height: fit-content;
+    min-height: 60vh;
+    width: 100vw;
+    background-color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#intro-content {
+    height: 100%;
+    color: var(--light);
+    padding: 40px 0 60px 0;
+}
+
+#name {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#name-subheader {
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+#about-info {
+    margin-top: 4rem;
+}
+
+#about-info > a {
+    color: var(--light);
+}
+
+
+/* CURVE */
+
+#curve {
+    width: 100vw;
+    height: 9.5vw;
+    background-color: var(--light);
+    margin-top: -15px;
+    padding-bottom: 5px;
+}
+
+
+/* BODY (bottom part) */
+
+#body-div {
+    min-height: 40vh;
+    width: 100vw;
+    background-color: var(--light);
+    margin-top: -5px;
+}
+
+#body-content {
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+
+
+/* PORTFOLIO */
+
+#portfolio-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#portfolio-subtitle {
+    margin-bottom: 3rem;
+}
+
+.project-tile-link {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.project-tile {
+    box-shadow: 0 0 10px 1px var(--shadow);
+    border-radius: 7px;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.project-top {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-title {
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.project-link-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.project-description {
+    margin-top: 20px;
+    font-size: 1.3rem;
+}

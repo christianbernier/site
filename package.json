@@ -1,0 +1,12 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "A personal website for my programming portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "author": "Christian Bernier",
+  "license": "ISC"
+}

@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "title": "Physics Notes",
+            "link": "https://physics.notes.cbernier.com",
+            "description": "Static-site generator I created to display notes I take for my modern physics class"
+        },
+        {
+            "title": "Special Relativity",
+            "link": "https://relativity.cbernier.com",
+            "description": "Interactive spacetime diagram to visualize Lorentz transformations used in special relativity"
+        },
+        {
+            "title": "MBTA Wiki",
+            "link": "https://mbtawiki.com",
+            "description": "Displays upcoming train and bus departures for the MBTA public transit system in Boston, MA"
+        },
+        {
+            "title": "NHS Website",
+            "link": "https://nhs.cbernier.com/old",
+            "description": "Information about the National Honor Society at my high school"
+        },
+        {
+            "title": "Double Pendulum",
+            "link": "https://pendulums.cbernier.com",
+            "description": "Visualize the chaotic nature of a double pendulum system"
+        },
+        {
+            "title": "Lissajous Curves",
+            "link": "https://lissajous.cbernier.com",
+            "description": "Shows the patterns created by complex harmonic motion"
+        },
+        {
+            "title": "3D Fractals",
+            "link": "https://github.com/christianbernier/fractals",
+            "description": "Explore 3D fractals rendered on-the-fly using ray marching"
+        },
+        {
+            "title": "GerrymanderMe!",
+            "link": "https://gerrymanderme.cbernier.com",
+            "description": "Learn about the effects of gerrymandering on elections through this interactive game"
+        }
+    ]
+}
