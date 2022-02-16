@@ -6,6 +6,12 @@
     --shadow: #21202040;
     margin: 0;
     padding: 0;
+
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 p {
@@ -144,6 +150,12 @@ p {
     border-radius: 7px;
     padding: 30px;
     margin-bottom: 40px;
+    transition: all 0.15s ease-in-out;
+}
+
+.project-tile:hover {
+    box-shadow: 0 0 15px 0.5px var(--shadow);
+    transform: scale(1.08, 1.08);
 }
 
 .project-top {
