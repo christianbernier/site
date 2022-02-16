@@ -27,6 +27,13 @@ p {
     }
 }
 
+@media only screen and (min-width: calc(1300px / 0.6)) {
+    .content {
+        width: 1300px !important;
+        margin: 0 calc((100vw - 1300px) / 2) !important; 
+    }
+}
+
 
 /* INTRO (top part) */
 
@@ -96,6 +103,25 @@ p {
 
 /* PORTFOLIO */
 
+#portfolio {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@media only screen and (min-width: 1000px) {
+    .project-tile {
+        width: calc(100% / 2 - 100px);
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .project-tile {
+        width: calc(100% / 3 - 120px);
+        margin-right: 40px;
+    }
+}
+
 #portfolio-title {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 700;
@@ -134,6 +160,7 @@ p {
 .project-link-icon {
     width: 1.6rem;
     height: 1.6rem;
+    margin-left: 30px;
 }
 
 .project-description {
