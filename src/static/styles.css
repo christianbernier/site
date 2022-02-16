@@ -30,6 +30,7 @@ p {
     margin: 0 10vw;
 }
 
+/* if the user isn't on mobile, make the content section narrower */
 @media only screen and (min-width: 768px) {
     .content {
         width: 60vw !important;
@@ -37,6 +38,7 @@ p {
     }
 }
 
+/* the content section can only be 1300px maximum */
 @media only screen and (min-width: calc(1300px / 0.6)) {
     .content {
         width: 1300px !important;
@@ -118,6 +120,15 @@ p {
     flex-flow: row wrap;
 }
 
+/* if the user isn't on mobile, make the tiles scale when hovered */
+@media only screen and (min-width: 768px) {
+    .project-tile:hover {
+        box-shadow: 0 0 15px 0.5px var(--shadow);
+        transform: scale(1.08, 1.08);
+    }
+}
+
+/* if the screen is wide enough, display two tiles side-by-side */
 @media only screen and (min-width: 1200px) {
     .project-tile-link {
         width: calc(100% / 2 - 40px) !important;
@@ -125,10 +136,10 @@ p {
     }
 }
 
+/* if the screen is even wider, display three tiles side-by-side */
 @media only screen and (min-width: 1800px) {
     .project-tile-link {
         width: calc(100% / 3 - 40px) !important;
-        margin-right: 40px !important;
     }
 }
 
@@ -151,18 +162,11 @@ p {
 }
 
 .project-tile {
-    /* width: 100%;
-    margin-right: 0; */
     box-shadow: 0 0 10px 1px var(--shadow);
     border-radius: 7px;
     padding: 30px;
     margin-bottom: 40px;
-    transition: all 0.15s ease-in-out;
-}
-
-.project-tile:hover {
-    box-shadow: 0 0 15px 0.5px var(--shadow);
-    transform: scale(1.08, 1.08);
+    transition: all 0.15s ease-in-out; /* transition for scaling */
 }
 
 .project-top {
@@ -186,5 +190,4 @@ p {
 
 .project-description {
     margin-top: 20px;
-    font-size: 1.3rem;
 }
