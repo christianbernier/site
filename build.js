@@ -28,15 +28,15 @@ let projectsHtml = ""
 for(const project of projects.projects) {
     // const entry = `<p><a href="${project.link}" target="_blank">${project.title}</a> — ${project.description}</p>`
     const entry = `
-    <div class="project-tile">
-        <a href="${project.link}" target="_blank" class="project-tile-link">
+    <a href="${project.link}" target="_blank" class="project-tile-link">    
+        <div class="project-tile">
             <div class="project-top">
                 <p class="project-title">${project.title}</p>
                 <img src="link.png" class="project-link-icon">
             </div>
             <p class="project-description">${project.description}</p>
-        </a>
-    </div>`;
+        </div>
+    </a>`;
     projectsHtml += entry
 }
 

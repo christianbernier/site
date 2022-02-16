@@ -119,15 +119,15 @@ p {
 }
 
 @media only screen and (min-width: 1200px) {
-    .project-tile {
-        width: calc(100% / 2 - 100px) !important;
+    .project-tile-link {
+        width: calc(100% / 2 - 40px) !important;
         margin-right: 40px !important;
     }
 }
 
 @media only screen and (min-width: 1800px) {
-    .project-tile {
-        width: calc(100% / 3 - 120px) !important;
+    .project-tile-link {
+        width: calc(100% / 3 - 40px) !important;
         margin-right: 40px !important;
     }
 }
@@ -143,13 +143,16 @@ p {
 }
 
 .project-tile-link {
+    width: 100%;
+    margin-right: 0;
+    display: block;
     text-decoration: none;
     color: var(--dark);
 }
 
 .project-tile {
-    width: 100%;
-    margin-right: 0;
+    /* width: 100%;
+    margin-right: 0; */
     box-shadow: 0 0 10px 1px var(--shadow);
     border-radius: 7px;
     padding: 30px;
