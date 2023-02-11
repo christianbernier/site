@@ -1,0 +1,175 @@
+{
+    "name": "Christian Bernier",
+    "summary": "Software Engineering Co-op at Cisco, CS + Physics Student at Northeastern University",
+    "biography": "Hello! I'm a second-year honors student at Northeastern University pursuing a degree in computer science and physics, with a minor in mathematics. Below, you can find more information about my educational background, personal projects I've made, and my professional experience. Please don't hesitate to reach out to say hi!",
+    "education": {
+        "schools": [
+            {
+                "title": "Northeastern University",
+                "location": "Boston, MA",
+                "subtitle": "Khoury College of Computer Sciences",
+                "dates_attended": "September 2021 – present",
+                "graduation": "Expected May 2025",
+                "summary": "Candidate for Bachelor of Science in Computer Science and Physics",
+                "honors": [
+                    "Honors College",
+                    "Dean's List",
+                    "Academic Excellence in Physics"
+                ],
+                "courses": [
+                    "Object-Oriented Design",
+                    "Algorithms and Design",
+                    "Differential Equations and Linear Algebra",
+                    "Logic and Computation",
+                    "Advanced Technical Writing",
+                    "Fundamentals of Computer Science I and II"
+                ]
+            },
+            {
+                "title": "Lexington High School",
+                "location": "Lexington, MA",
+                "subtitle": "",
+                "dates_attended": "August 2017 – June 2021",
+                "graduation": "",
+                "summary": "",
+                "honors": [
+                    "National Honor Society Vice President",
+                    "Student Government Tech Board"
+                ],
+                "courses": [
+                    "AP Computer Science A",
+                    "Advanced Computer Programming",
+                    "AP Physics C",
+                    "AP Calculus BC",
+                    "AP Chemistry",
+                    "AP Biology",
+                    "AP U.S. History",
+                    "AP U.S. Government and Politics"
+                ]
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "Graphical Image Processing and Enhancement Application",
+            "date": "June 2022",
+            "link": "",
+            "description": [
+                "Developed GUI application to manipulate and analyze image files using Java Swing for Object-Oriented Design class",
+                "Utilized model-view-controller design with kernel filtering and linear color transformation classes for easy editing",
+                "Explored object-oriented principles such as the Builder, Command, Adapter, Decorator, and Strategy design patterns"
+            ]
+        },
+        {
+            "title": "Physics Notes Generator",
+            "date": "January 2022 – April 2022",
+            "link": "physics.notes.cbernier.com",
+            "description": [
+                "Created a static site generator to parse my physics notes from Markdown/LaTeX into HTML using NodeJS",
+                "Boosted productivity of study sessions significantly by making notes easy to access and well-organized"
+            ]
+        },
+        {
+            "title": "Special Relativity",
+            "date": "January 2022",
+            "link": "relativity.cbernier.com",
+            "description": [
+                "Made an interactive spacetime diagram to visualize Lorentz transformations used in special relativity",
+                "Implemented various equations used in modern physics to provide an intuition behind the math of relativity"
+            ]
+        },
+        {
+            "title": "Gerrymander Me!",
+            "date": "July 2020 – October 2020",
+            "link": "gerrymanderme.cbernier.com",
+            "description": [
+                "Built a game in JavaScript, HTML, and CSS to demonstrate the effects of partisan gerrymandering",
+                "Delivered an engaging and interactive experience to over 100 students in AP U.S. Government classes"
+            ]
+        },
+        {
+            "title": "Lissajous Curves",
+            "date": "February 2021",
+            "link": "lissajous.cbernier.com",
+            "description": [
+                "Developed an interactive tool to visualize complex harmonic motion found in physical systems",
+                "Provides users the ability to change parameters of the systems and observe how the resulting patterns are affected"
+            ]
+        },
+        {
+            "title": "MBTA Wiki",
+            "date": "March 2018 – August 2020",
+            "link": "mbtawiki.com",
+            "description": [
+                "Created a reference website and iOS app to track trains and buses on Boston public transit network",
+                "Generated over 1,000 iOS app downloads and thousands of website pageviews with reliable and useful information",
+                "Learned HTML, JavaScript, CSS, and React to present third-party API data in a fast and organized way"
+            ]
+        },
+        {
+            "title": "3D Fractal Visualizer",
+            "date": "April 2019 – June 2019",
+            "link": "",
+            "description": [
+                "Developed an interactive program to visualize complex 3D fractals using for AP Computer Science class with a partner",
+                "Utilized distance estimator and ray-marching rendering methods in Java/C program with LWJGL library for graphics"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Cisco Systems",
+            "date": "January 2023 – present",
+            "location": "Waltham, MA",
+            "title": "Software Engineering Co-op",
+            "description": [
+                "Develop front-end and back-end solutions to challenging problems",
+                "Plan feature development in daily Scrum meetings",
+                "Create extensible and efficient additions to several codebases",
+                "Write thorough and comprehensive test suites for my contributions"
+            ]
+        },
+        {
+            "company": "Northeastern University",
+            "date": "January 2022 – present",
+            "location": "Boston, MA",
+            "title": "Peer Tutor",
+            "description": [
+                "Mentor students in multivariable calculus, fundamentals of computer science, and modern physics",
+                "Conduct up to 10 one-on-one meetings weekly, leading to higher student confidence and better in – class performance"
+            ]
+        },
+        {
+            "company": "Museum of Science",
+            "date": "September 2018 – present",
+            "location": "Boston, MA",
+            "title": "In – Gallery Learning Program Assistant",
+            "description": [
+                "Engage thousands of visitors of all ages daily in drop-in engineering, computer science, and biology activities",
+                "Educate visitors about the engineering design process and encourage planning, testing, and redesigning",
+                "Manage and coordinate dozens of interns and volunteers to ensure a flawless visitor experience"
+            ]
+        },
+        {
+            "company": "Yumanity Therapeutics",
+            "date": "February 2021 – August 2021",
+            "location": "Boston, MA",
+            "title": "Chemistry Intern",
+            "description": [
+                "Prepared dozens of compound samples for NMR analysis and refilled machines with liquid nitrogen weekly",
+                "Organized and weighed thousands of chemical samples to expedite drug discovery for neurodegenerative diseases"
+            ]
+        },
+        {
+            "company": "Grace Chapel",
+            "date": "June 2019 – September 2019",
+            "location": "Lexington, MA",
+            "title": "Media Technology and IT Intern",
+            "description": [
+                "Upgraded software, storage, and memory in servers and end-user machines, which greatly increased productivity",
+                "Created deployment documentation for new and refurbished computers and other IT equipment",
+                "Troubleshot issues with AV equipment in front of thousands of church attendees"
+            ]
+        }
+    ]
+}

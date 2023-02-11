@@ -12,13 +12,19 @@
     -webkit-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 4rem;
 }
 
 body {
     overflow-x: hidden;
 }
 
-p {
+p, a {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     font-size: 1.3rem;
@@ -101,7 +107,7 @@ p {
 /* BODY (bottom part) */
 
 #body-div {
-    min-height: 40vh;
+    min-height: 100vh;
     width: 100vw;
     background-color: var(--light);
     margin-top: -5px;
@@ -109,85 +115,149 @@ p {
 
 #body-content {
     padding-top: 2rem;
-    padding-bottom: 10rem;
+    display: grid;
+    grid-template-columns: 15rem auto;
+    align-items: start;
 }
 
-
-/* PORTFOLIO */
-
-#portfolio {
-    display: flex;
-    flex-flow: row wrap;
+nav {
+    position: sticky;
+    top: 4rem;
 }
 
-/* if the user isn't on mobile, make the tiles scale when hovered */
-@media only screen and (min-width: 768px) {
-    .project-tile:hover {
-        box-shadow: 0 0 15px 0.5px var(--shadow);
-        transform: scale(1.08, 1.08);
-    }
-}
-
-/* if the screen is wide enough, display two tiles side-by-side */
-@media only screen and (min-width: 1200px) {
-    .project-tile-link {
-        width: calc(100% / 2 - 40px) !important;
-        margin-right: 40px !important;
-    }
-}
-
-/* if the screen is even wider, display three tiles side-by-side */
-@media only screen and (min-width: 1800px) {
-    .project-tile-link {
-        width: calc(100% / 3 - 40px) !important;
-    }
-}
-
-#portfolio-title {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-}
-
-#portfolio-subtitle {
-    margin-bottom: 3rem;
-}
-
-.project-tile-link {
-    width: 100%;
-    margin-right: 0;
+nav > a {
     display: block;
     text-decoration: none;
     color: var(--dark);
+    font-weight: 600;
 }
 
-.project-tile {
-    box-shadow: 0 0 10px 1px var(--shadow);
-    border-radius: 7px;
-    padding: 30px;
-    margin-bottom: 40px;
-    transition: all 0.15s ease-in-out; /* transition for scaling */
+.menu-item-bold{
+    text-shadow: 1px 1px rgba(54, 54, 54, 0.854);
+    transition: text-shadow .5s;
 }
 
-.project-top {
+.body-block {
+    margin-bottom: 100px;
+}
+
+.body-block:last-of-type {
+    margin-bottom: 200px;
+}
+
+.block-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.block-element {
+    margin-bottom: 3rem;
+}
+
+.element-row {
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: baseline;
 }
 
-.project-title {
-    font-weight: 600;
+.element-col {
+    width: calc(100% - 3rem);
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin: 1.5rem 0 1.5rem 3rem;
+}
+
+.element-title {
     font-size: 1.6rem;
+    font-weight: 600;
+    max-width: 80%;
 }
 
-.project-link-icon {
-    width: 1.6rem;
-    height: 1.6rem;
-    margin-left: 30px;
+.element-subtitle {
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 400;
 }
 
-.project-description {
-    margin-top: 20px;
+.element-location {
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--dark);
+}
+
+.element-date {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.element-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.element-header {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.element-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.element-standalone-list {
+    margin-left: 4rem;
+}
+
+.element-standalone-list > .element-list-item {
+    display: list-item;
+    list-style-type: "\2013";
+    padding-inline-start: 1rem;
+}
+
+.element-list-item {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.invisible {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    #body-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+
+    .element-row {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .element-row:last-of-type {
+        margin-bottom: 1rem;
+    }
+
+    .element-col {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem 0 1.5rem 1.5rem;
+    }
+
+    .element-list {
+        margin-left: 2rem;
+    }
 }
