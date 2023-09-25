@@ -1,7 +1,7 @@
 {
     "name": "Christian Bernier",
-    "summary": "Software Engineering Co-op at Cisco, CS + Physics Student at Northeastern University",
-    "biography": "Hello! I'm a second-year honors student at Northeastern University pursuing a degree in computer science and physics, with a minor in mathematics. Below, you can find more information about my educational background, personal projects I've made, and my professional experience. Please don't hesitate to reach out to say hi!",
+    "summary": "CS + Physics Student at Northeastern University",
+    "biography": "Hello! I'm a third-year honors student at Northeastern University pursuing a degree in computer science and physics, with a minor in mathematics. Below, you can find more information about my educational background, personal projects I've made, and my professional experience. Please don't hesitate to reach out to say hi!",
     "education": {
         "schools": [
             {
@@ -17,7 +17,9 @@
                     "Academic Excellence in Physics"
                 ],
                 "courses": [
+                    "Software Engineering",
                     "Object-Oriented Design",
+                    "Theory of Computation",
                     "Algorithms and Design",
                     "Differential Equations and Linear Algebra",
                     "Logic and Computation",
@@ -119,24 +121,24 @@
     "experience": [
         {
             "company": "Cisco Systems",
-            "date": "January 2023 – present",
+            "date": "January 2023 – August 2023",
             "location": "Boston, MA",
             "title": "Software Engineering Co-op",
             "description": [
-                "Develop front-end and back-end solutions to challenging problems",
-                "Plan feature development in daily Scrum meetings",
-                "Create extensible and efficient additions to several codebases",
-                "Write thorough and comprehensive test suites for my contributions"
+                "Developed full-stack features used billions of times daily for a cloud security product in an agile scrum team",
+                "Designed and implemented extensible user interfaces and APIs in various large-scale Git codebases independently",
+                "Contributed to team discussions about software design and independently reviewed others’ code changes in GitHub"
             ]
         },
         {
-            "company": "Northeastern University",
-            "date": "January 2022 – present",
+            "company": "Khoury College of Computer Sciences",
+            "date": "September 2023 – present",
             "location": "Boston, MA",
-            "title": "Peer Tutor",
+            "title": "Teaching Assistant",
             "description": [
-                "Mentor students in multivariable calculus, fundamentals of computer science, and modern physics",
-                "Conduct up to 10 one-on-one meetings weekly, leading to higher student confidence and better in – class performance"
+                "Ensure a complete understanding of computer science lecture material by hosting 4 drop-in office hours per week",
+                "Mentor 40 students weekly in 100-minute lab periods by proctoring interactive activities and answering questions",
+                "Grade several homework and exam assignments per week through code reviews with meaningful feedback"
             ]
         },
         {
@@ -148,6 +150,16 @@
                 "Engage thousands of visitors of all ages daily in drop-in engineering, computer science, and biology activities",
                 "Educate visitors about the engineering design process and encourage planning, testing, and redesigning",
                 "Manage and coordinate dozens of interns and volunteers to ensure a flawless visitor experience"
+            ]
+        },
+        {
+            "company": "Northeastern University",
+            "date": "January 2022 – December 2022",
+            "location": "Boston, MA",
+            "title": "Peer Tutor",
+            "description": [
+                "Mentor students in multivariable calculus, fundamentals of computer science, and modern physics",
+                "Conduct up to 10 one-on-one meetings weekly, leading to higher student confidence and better in – class performance"
             ]
         },
         {
